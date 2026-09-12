@@ -164,7 +164,6 @@ a {
 }
 
 .section-card.link-card {
-  grid-template-columns: 1fr;
   text-decoration: none;
 }
 
@@ -223,17 +222,6 @@ a {
 .links a:focus-visible {
   border-color: var(--cyan);
   color: var(--cyan);
-}
-
-.link-card .section-body {
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.link-card .hint {
-  color: var(--muted);
-  font-size: 0.95rem;
 }
 
 .writings {
